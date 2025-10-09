@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews | StemSpark</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact-page">
+
+    <div class="cursor cursor-circle"></div>
+    <div class="cursor cursor-point"></div>
+
+    <main>
+      <nav class="hide">
+        <img src="./img/signature.png" class="signature getHover">
+        <ul class="nav-list">
+          <li class="nav-link getHover"><a href="file.html">Home <i class='bx bx-chevron-right'></i></a></li>
+          <li class="nav-link getHover"><a href="contact.html">Contact <i class='bx bx-chevron-right'></i></a></li>
+          <li class="nav-link getHover"><a href="reviews.html">Reviews <i class='bx bx-chevron-right'></i></a></li>
+          <li class="nav-link getHover"><a href="classes.html">Classes <i class='bx bx-chevron-right'></i></a></li>
+          <li class="nav-link getHover"><a href="about.html">About Us <i class='bx bx-chevron-right'></i></a></li>
+        </ul>
+        <a href="https://book.squareup.com/appointments/qhe63p4artyler/location/LZGJJ1QXZP6ZZ/services" target="_blank">
+          <button class="register-btn">Register Now!</button>
+        </a>
+      </nav>
+      
+
+      <div class="image-wrap getHover"></div>
+
+      <div class="form-container">
+        <h1 class="form-title">Post a Review!</h1>
+        <p>Please tell us how we could improve!</p>
+        <form action="https://formsubmit.co/9027fa5ca2bb112124d915f270487d12" method="POST">
+          <input type="text" name="name" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email *" required>
+          <textarea name="message" placeholder="Message" required></textarea>
+          
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact.html">
+          
+          <button type="submit" class="submit-btn">Submit</button>
+      </form>
+      
+      
+      
+      
+      
+      
+      </div>
+
+      <div class="bottom-sec hide">
+        <p><i class='bx bx-map'></i> Located in Aurora, IL</p>
+        <ul class="social-media">
+          <li><a href="#" class="getHover"><i class='bx bxl-instagram'></i></a></li>
+          <li><a href="#" class="getHover"><i class='bx bxl-youtube'></i></a></li>
+          <li><a href="#" class="getHover"><i class='bx bxl-linkedin'></i></a></li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
